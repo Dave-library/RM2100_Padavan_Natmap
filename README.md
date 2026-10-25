@@ -1,3 +1,8 @@
+历经N次变更版本，最后与20260715完成上线使用，已使用4个月，没有异常问题。
+由于RM2100的Padavan系统分配的永久性存储空间太小，所以需要每7天或者每超过1MB删除一次日志记录文件。
+这个脚本内容只涉及natmap功能，微信推送和域名映射需要查看其他大佬的教程。
+脚本内容全程依靠deepseek生成，下载使用时需要把IP和端口替换为自己使用的。
+
 # natmap 端口映射与自动维护系统
 
 > 专为小米/红米路由器（Padavan/老毛子固件）设计的 NAT 穿透与自动维护方案，支持端口映射、进程保活、防火墙自动修复、微信推送和日志轮转。
@@ -91,7 +96,7 @@ tail -f /etc/storage/bin/natmap/router/logs/router_ip_monitor.log
 ## 目录结构
 
 ```text
-/etc/storage/bin/natmap/
+/etc/storage/bin/natmap/            主目录
 ├── check_ip_change.sh              主监控脚本（常驻后台）
 ├── natmap                          natmap 二进制程序
 ├── router/                         ROUTER 服务目录
