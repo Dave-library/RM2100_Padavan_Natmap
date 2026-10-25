@@ -1,19 +1,24 @@
-历经N次变更版本，最后与20260715完成上线使用，已使用4个月，没有异常问题。  
-由于RM2100的Padavan系统分配的永久性存储空间太小，所以需要每7天或者每超过1MB删除一次日志记录文件。  
-这个脚本内容只涉及natmap功能，微信测试号推送和域名映射需要查看其他大佬的教程。  
-脚本内容全程依靠deepseek生成，下载使用时需要把IP和端口替换为自己使用的。  
-效果展示-因为我这里是没有公网IP，所以设置了推送三个IP，外网访问的时候需要公网地址:端口，路由器侧的防火墙规则要添加出口地址:端口。  
-<img width="455" height="377" alt="image" src="https://github.com/user-attachments/assets/983a2fe1-3604-449d-8db4-d117215a6193" />
-
----------------------------------------------------------------------
-
-
 # natmap 端口映射与自动维护系统
 
 > 专为小米/红米路由器（Padavan/老毛子固件）设计的 NAT 穿透与自动维护方案，支持端口映射、进程保活、防火墙自动修复、微信推送和日志轮转。
 
 ![平台](https://img.shields.io/badge/platform-Padavan-blue)
 ![版本](https://img.shields.io/badge/version-v1.0-green)
+![状态](https://img.shields.io/badge/status-stable-success)
+
+---
+
+## 项目简介
+
+- 历经多次版本迭代，最终于 **2026-07-15** 完成上线，稳定运行 4 个月，无异常问题。
+- 由于 RM2100 的 Padavan 系统分配的永久性存储空间较小，脚本内置日志轮转机制：**每 7 天或超过 1MB 自动清理日志**。
+- 本项目仅涉及 **natmap** 功能。微信测试号推送与域名映射需参考其他教程。
+- 脚本内容由 DeepSeek 辅助生成，**下载使用前请将内网 IP、端口替换为自己的实际配置**。
+- 当前环境无公网 IPv4，推送中会显示三个地址：外网访问使用「公网地址:端口」，路由器侧防火墙规则需添加「出口地址:端口」。
+
+### 效果展示
+
+<img width="455" height="377" alt="微信推送效果" src="https://github.com/user-attachments/assets/983a2fe1-3604-449d-8db4-d117215a6193" />
 
 ---
 
@@ -31,6 +36,7 @@
 - [故障排查](#故障排查)
 - [扩展与自定义](#扩展与自定义)
 - [注意事项](#注意事项)
+- [版本信息](#版本信息)
 
 ---
 
@@ -204,7 +210,7 @@ natmap -d -s turn.cloudflare.com -h baidu.com -b 0 -t <内网IP> -p 5001
 
 ### 端口变化触发
 
-若 120 秒内有 IP 变化原因，则复用该原因；否则使用“端口映射重新分配”。
+若 120 秒内有 IP 变化原因，则复用该原因；否则使用「端口映射重新分配」。
 
 ### 不可达告警
 
@@ -355,6 +361,7 @@ tail -20 /etc/storage/bin/natmap/nas/logs/nas_ip_monitor.log | grep "允许状�
 |------|------|
 | 脚本名称 | natmap 端口映射与自动维护系统 |
 | 版本 | v1.0 |
+| 上线日期 | 2026-07-15 |
 | 最后更新 | 2026-07-10 |
 | 适用平台 | Padavan / 老毛子固件（小米/红米路由器） |
 | 依赖工具 | natmap, iptables, pgrep, flock, logger, date, awk, grep, sed, cut, tr, xargs, ping, kill, ps, sleep, tee, nohup |
