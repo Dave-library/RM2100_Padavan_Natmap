@@ -2,7 +2,7 @@
 由于RM2100的Padavan系统分配的永久性存储空间太小，所以需要每7天或者每超过1MB删除一次日志记录文件。  
 这个脚本内容只涉及natmap功能，微信推送和域名映射需要查看其他大佬的教程。  
 脚本内容全程依靠deepseek生成，下载使用时需要把IP和端口替换为自己使用的。  
-效果展示
+效果展示  
 <img width="455" height="377" alt="image" src="https://github.com/user-attachments/assets/983a2fe1-3604-449d-8db4-d117215a6193" />
 
 
