@@ -20,9 +20,10 @@
 
 ### 效果展示
 **微信推送效果**
-<img width="455" height="377" alt="微信推送效果" src="https://github.com/user-attachments/assets/983a2fe1-3604-449d-8db4-d117215a6193" />
+<img width="455" height="377" alt="微信推送效果" src="https://github.com/user-attachments/assets/983a2fe1-3604-449d-8db4-d117215a6193" />  
 **外网访问效果**
-<img width="1431" height="857" alt="外网访问效果" src="https://github.com/user-attachments/assets/50819db6-6330-4b62-a88d-e671d4499786" />
+<img width="1588" height="882" alt="image" src="https://github.com/user-attachments/assets/9197b783-57bb-4714-8aaa-139913d077c4" />  
+
 
 ---
 
