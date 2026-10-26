@@ -19,7 +19,7 @@
 - natmap二进制源文件来源[**heiher/natmap**](https://github.com/heiher/natmap)，其他shell脚本文件由[**deepseek网页版**](https://chat.deepseek.com/)辅助生成。
 
 ### 效果展示
-*微信推送效果*[br/]
+*微信推送效果*c
 [![微信推送效果](images/wechat-push.png)](https://github.com/Dave-library/RM2100_Padavan_Natmap)[br/][br/]
 *域名访问效果*[br/]
 [![域名访问效果](images/domain-name-access.png)](https://github.com/Dave-library/RM2100_Padavan_Natmap)[br/]
