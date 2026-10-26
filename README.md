@@ -16,7 +16,7 @@
 - 脚本内容由 DeepSeek 辅助生成，**下载使用前请将内网 IP、端口替换为自己的实际配置**。
 - 适用于当前环境无**公网**IPv4需要访问私网的情况。
 - 微信测试号推送中会显示三个地址：外网访问使用「**公网地址:端口**」，路由器侧防火墙规则需添加「**出口地址:端口**」。
-- natmap二进制源文件来源https://github.com/heiher/natmap 其他shell脚本文件由deepseek辅助生成。
+- natmap二进制源文件来源[heiher/natmap](#https://github.com/heiher/natmap)，其他shell脚本文件由deepseek辅助生成。
 
 ### 效果展示
 
