@@ -20,7 +20,7 @@
 
 ### 效果展示  
 **微信推送效果**  
-<img width="455" height="377" alt="微信推送效果" src="images/wechat-push.png" />
+[![微信推送效果](images/wechat-push.png)]
 **外网访问效果**  
 <img width="1588" height="882" alt="image" src="images/wdomain-name-access.png" />
 
