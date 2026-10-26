@@ -19,8 +19,9 @@
 - natmap二进制源文件来源[**heiher/natmap**](https://github.com/heiher/natmap)，其他shell脚本文件由[**deepseek网页版**](https://chat.deepseek.com/)辅助生成。
 
 ### 效果展示
-
+**微信推送效果**
 <img width="455" height="377" alt="微信推送效果" src="https://github.com/user-attachments/assets/983a2fe1-3604-449d-8db4-d117215a6193" />
+**外网访问效果**
 <img width="1431" height="857" alt="外网访问效果" src="https://github.com/user-attachments/assets/50819db6-6330-4b62-a88d-e671d4499786" />
 
 ---
