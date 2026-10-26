@@ -22,7 +22,7 @@
 **微信推送效果**  
 [![微信推送效果](images/wechat-push.png)](https://github.com/Dave-library/RM2100_Padavan_Natmap)
 **外网访问效果**  
-<img width="1588" height="882" alt="image" src="images/wdomain-name-access.png" />
+<img width="1588" height="882" alt="image" src="images/domain-name-access.png"/>
 
 
 ---
